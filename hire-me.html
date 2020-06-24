@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Form</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/hire-me.css" />
+  </head>
+
+  <body>
+    <div class="contact-title">
+      <h1>SAY HELLO</h1>
+      <h2>HAPPY TO HEAR FROM YOU!</h2>
+    </div>
+    <div class="contact-form">
+      <form
+        id="contact-form"
+        method="POST"
+        action="mailto:herbertfmendoza@gmail.com"
+      >
+        <input
+          name="name"
+          type="text"
+          class="form-control"
+          placeholder="Your Name"
+          required
+        /><br />
+        <input
+          name="email"
+          type="email"
+          class="form-control"
+          placeholder="Your Email"
+          required
+        /><br />
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Message"
+          rows="4"
+        ></textarea
+        ><br />
+        <input type="submit" class="form-control submit" value="SEND MESSAGE" />
+      </form>
+    </div>
+  </body>
+</html>
